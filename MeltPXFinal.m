@@ -26,7 +26,7 @@ N=500; % extent of mixing for Dirichlet function
 m=0; % select 1 for channelised flow, 0 for no channelised flow
 
 % load data
-Data=readtable('6Donly.xlsx');
+Data=readtable('Data/6Donly.xlsx');
 
 % user input parameters for trace code
 NumberOfIterations=5000;
